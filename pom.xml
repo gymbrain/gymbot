@@ -359,6 +359,11 @@
             <artifactId>spring-security-messaging</artifactId>
         </dependency>
         <!-- jhipster-needle-maven-add-dependency -->
+        <dependency>
+            <groupId>com.kucoin</groupId>
+            <artifactId>kucoin-java-sdk</artifactId>
+            <version>1.0.4</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -1069,8 +1074,8 @@
                                 <driver>org.postgresql.Driver</driver>
                                 <url>jdbc:postgresql://localhost:5432/gymbot</url>
                                 <defaultSchemaName></defaultSchemaName>
-                                <username>gymbot</username>
-                                <password></password>
+                                <username>postgres</username>
+                                <password>90630690</password>
                                 <referenceUrl>hibernate:spring:ir.gymbot.domain?dialect=tech.jhipster.domain.util.FixedPostgreSQL10Dialect&amp;hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&amp;hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy</referenceUrl>
                                 <verbose>true</verbose>
                                 <logging>debug</logging>
@@ -1169,8 +1174,8 @@
                                 <driver>org.postgresql.Driver</driver>
                                 <url>jdbc:postgresql://localhost:5432/gymbot</url>
                                 <defaultSchemaName></defaultSchemaName>
-                                <username>gymbot</username>
-                                <password></password>
+                                <username>postgres</username>
+                                <password>90630690</password>
                                 <referenceUrl>hibernate:spring:ir.gymbot.domain?dialect=tech.jhipster.domain.util.FixedPostgreSQL10Dialect&amp;hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&amp;hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy</referenceUrl>
                                 <verbose>true</verbose>
                                 <logging>debug</logging>

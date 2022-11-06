@@ -34,8 +34,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/gymbot
-    username: gymbot
-    password:
+    username: postgres
+    password: 90630690
     hikari:
       poolName: Hikari
       auto-commit: false
