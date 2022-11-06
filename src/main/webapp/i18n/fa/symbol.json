@@ -1,0 +1,42 @@
+{
+  "gymbotApp": {
+    "symbol": {
+      "home": {
+        "title": "Symbols",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Symbol",
+        "createOrEditLabel": "Create or edit a Symbol",
+        "search": "Search for Symbol",
+        "notFound": "No Symbols found"
+      },
+      "created": "A new Symbol is created with identifier {{ param }}",
+      "updated": "A Symbol is updated with identifier {{ param }}",
+      "deleted": "A Symbol is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Symbol {{ id }}?"
+      },
+      "detail": {
+        "title": "Symbol"
+      },
+      "id": "ID",
+      "symbol": "Symbol",
+      "name": "Name",
+      "baseCurrency": "Base Currency",
+      "quoteCurrency": "Quote Currency",
+      "feeCurrency": "Fee Currency",
+      "market": "Market",
+      "baseMinSize": "Base Min Size",
+      "quoteMinSize": "Quote Min Size",
+      "baseMaxSize": "Base Max Size",
+      "quoteMaxSize": "Quote Max Size",
+      "baseIncrement": "Base Increment",
+      "quoteIncrement": "Quote Increment",
+      "priceIncrement": "Price Increment",
+      "priceLimitRate": "Price Limit Rate",
+      "minFunds": "Min Funds",
+      "isMarginEnabled": "Is Margin Enabled",
+      "enableTrading": "Enable Trading",
+      "active": "Active"
+    }
+  }
+}

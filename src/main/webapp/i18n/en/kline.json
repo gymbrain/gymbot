@@ -1,0 +1,33 @@
+{
+  "gymbotApp": {
+    "kline": {
+      "home": {
+        "title": "Klines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Kline",
+        "createOrEditLabel": "Create or edit a Kline",
+        "search": "Search for Kline",
+        "notFound": "No Klines found"
+      },
+      "created": "A new Kline is created with identifier {{ param }}",
+      "updated": "A Kline is updated with identifier {{ param }}",
+      "deleted": "A Kline is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Kline {{ id }}?"
+      },
+      "detail": {
+        "title": "Kline"
+      },
+      "id": "ID",
+      "time": "Time",
+      "open": "Open",
+      "close": "Close",
+      "high": "High",
+      "low": "Low",
+      "volume": "Volume",
+      "turnover": "Turnover",
+      "timeType": "Time Type",
+      "symbol": "Symbol"
+    }
+  }
+}

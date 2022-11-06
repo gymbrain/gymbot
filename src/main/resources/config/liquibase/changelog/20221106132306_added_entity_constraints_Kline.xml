@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Kline.
+    -->
+    <changeSet id="20221106132306-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="symbol_id"
+                                 baseTableName="kline"
+                                 constraintName="fk_kline__symbol_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="symbol"/>
+    </changeSet>
+</databaseChangeLog>

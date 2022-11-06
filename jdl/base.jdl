@@ -1,27 +1,37 @@
-entity Market {
-    title String required
+entity Symbol {
+    symbol String required
+    name String required
+    baseCurrency String
+    quoteCurrency String
+    feeCurrency String
+    market String
+    baseMinSize String
+    quoteMinSize String
+    baseMaxSize String
+    quoteMaxSize String
+    baseIncrement String
+    quoteIncrement String
+    priceIncrement String
+    priceLimitRate String
+    minFunds String
+    isMarginEnabled Boolean
+    enableTrading Boolean
     active Boolean
 }
 
-entity Candle {
-    timestampt Long
-    openPrice String
-    closePrice String
-    highPrice String
-    lowPrice String
+entity Kline {
+    time Long
+    open String
+    close String
+    high String
+    low String
     volume String
-    transaction String
+    turnover String
     timeType String
 }
 
-entity Currency {
-    title String required unique
-    available String required
-    frozen String required
-}
-
 relationship ManyToOne {
-    Candle{market(title)} to Market
+    Kline{symbol(symbol)} to Symbol
 }
 
 dto * with mapstruct

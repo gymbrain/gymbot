@@ -1,0 +1,91 @@
+{
+  "applications": "*",
+  "changelogDate": "20221106132305",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "symbol",
+  "fields": [
+    {
+      "fieldName": "symbol",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "baseCurrency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quoteCurrency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "feeCurrency",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "market",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "baseMinSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quoteMinSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "baseMaxSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quoteMaxSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "baseIncrement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quoteIncrement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "priceIncrement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "priceLimitRate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "minFunds",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isMarginEnabled",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "enableTrading",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "base",
+  "name": "Symbol",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
