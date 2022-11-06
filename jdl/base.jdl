@@ -1,0 +1,33 @@
+entity Market {
+    title String required
+    active Boolean
+}
+
+entity Candle {
+    timestampt Long
+    openPrice String
+    closePrice String
+    highPrice String
+    lowPrice String
+    volume String
+    transaction String
+    timeType String
+}
+
+entity Currency {
+    title String required unique
+    available String required
+    frozen String required
+}
+
+relationship ManyToOne {
+    Candle{market(title)} to Market
+}
+
+dto * with mapstruct
+paginate * with pagination
+service * with serviceImpl
+filter *
+
+microservice * with base
+
